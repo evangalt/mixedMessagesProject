@@ -14,11 +14,12 @@
 	<body>
 		<h1>Inspirational Message Crystal Ball</h1>
 		<span>Sponsored by Codecademy</span>
-		<span>This is my test branch!</span>
 
 		<section class="button-container">
 			<p>Look into your future...</p>
-			<button class="button" onclick="generateMessage()">Press Me!</button>
+			<button id="sad-button" class="button" onclick="generateMessage(sad)">I'm Sad :(</button>
+			<button id="motivation-button" class="button" onclick="generateMessage(motivation)">I Need Motivation</button>
+			<button id="happy-button" class="button" onclick="generateMessage(happy)">I'm Happy</button>
 			<br>
 			<section id="message-container"></section>
 		</section>
