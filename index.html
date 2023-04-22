@@ -5,24 +5,25 @@
     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Inspirational Message Crystal Ball</title>
+		<title>Inspirational Message Generator</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<h1>Inspirational Message Crystal Ball</h1>
+		<h1>Inspirational Message Generator</h1>
 		<span>Sponsored by Codecademy</span>
+		<p>Choose your current mood below...</p>
 
 		<section class="button-container">
-			<p>Look into your future...</p>
-			<button id="sad-button" class="button" onclick="generateMessage(sad)">I'm Sad :(</button>
-			<button id="motivation-button" class="button" onclick="generateMessage(motivation)">I Need Motivation</button>
-			<button id="happy-button" class="button" onclick="generateMessage(happy)">I'm Happy</button>
-			<br>
-			<section id="message-container"></section>
+			<button id="sad-button" class="button" onclick="generateMessage(sad)">Cheer <br> Me <br> Up</button>
+			<button id="motivation-button" class="button" onclick="generateMessage(motivation)">Motivate <br> Me</button>
+			<button id="happy-button" class="button" onclick="generateMessage(happy)">Inspire <br> Me</button>	
 		</section>
+
+		<br>
+		<section id="message-container"></section>
 
 		<footer>
 			<span>&copy; 2023 Galt Enterprises</span>
